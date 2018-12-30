@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bad String References</title>
-    <link>https://badstreff.github.io/</link>
-    <description>Recent content on Bad String References</description>
+    <title>Posts on Bad String References</title>
+    <link>https://badstreff.github.io/posts/</link>
+    <description>Recent content in Posts on Bad String References</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Dec 2018 21:56:51 -0600</lastBuildDate>
     
-	<atom:link href="https://badstreff.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://badstreff.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://badstreff.github.io/posts/hello-world/</guid>
       <description>It&amp;rsquo;s Alive!</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://badstreff.github.io/about/</link>
-      <pubDate>Sat, 29 Dec 2018 15:48:02 -0600</pubDate>
-      
-      <guid>https://badstreff.github.io/about/</guid>
-      <description>Hello, world!</description>
     </item>
     
   </channel>

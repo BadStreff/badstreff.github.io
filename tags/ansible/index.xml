@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on badstreff</title>
-    <link>https://badstreff.github.io/posts/</link>
-    <description>Recent content in Posts on badstreff</description>
+    <title>Ansible on badstreff</title>
+    <link>https://badstreff.github.io/tags/ansible/</link>
+    <description>Recent content in Ansible on badstreff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 31 Dec 2018 17:59:13 -0600</lastBuildDate>
     
-	<atom:link href="https://badstreff.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://badstreff.github.io/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://badstreff.github.io/posts/ansible-java-properties-template/</guid>
       <description>Introduction This post should teach you some jinja tricks to make templating out the java .properties file format as painless as possible. For those unfamiliar they generally look something like the following example which was taken from the apache commons config guide. You can find more information and the original here
 # Properties definining the GUI colors.background = #FFFFFF colors.foreground = #000080 window.width = 500 window.height = 300  Notice that they follow a dictionary like structure, if we were to represent this using yaml it would look something like this.</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://badstreff.github.io/posts/hello-world/</link>
-      <pubDate>Sat, 29 Dec 2018 21:56:51 -0600</pubDate>
-      
-      <guid>https://badstreff.github.io/posts/hello-world/</guid>
-      <description>It&amp;rsquo;s Alive!</description>
     </item>
     
   </channel>

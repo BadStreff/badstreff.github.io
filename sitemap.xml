@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://badstreff.github.io/posts/ansible-java-properties-template/</loc>
+    <lastmod>2018-12-31T17:59:13-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://badstreff.github.io/posts/hello-world/</loc>
     <lastmod>2018-12-29T21:56:51-06:00</lastmod>
   </url>
@@ -13,24 +18,37 @@
   </url>
   
   <url>
+    <loc>https://badstreff.github.io/tags/ansible/</loc>
+    <lastmod>2018-12-31T17:59:13-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://badstreff.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://badstreff.github.io/tags/jinja2/</loc>
+    <lastmod>2018-12-31T17:59:13-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://badstreff.github.io/posts/</loc>
-    <lastmod>2018-12-29T21:56:51-06:00</lastmod>
+    <lastmod>2018-12-31T17:59:13-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://badstreff.github.io/tags/</loc>
+    <lastmod>2018-12-31T17:59:13-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://badstreff.github.io/</loc>
-    <lastmod>2018-12-29T21:56:51-06:00</lastmod>
+    <lastmod>2018-12-31T17:59:13-06:00</lastmod>
     <priority>0</priority>
   </url>
   

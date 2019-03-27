@@ -88,21 +88,21 @@ dictionary like so.</p>
 and value based on the dictionary we pass.</p>
 
 <pre><code class="language-django">{%- macro f(parent, dict) -%}
-  {%- for k, v in dict.items() -%}
-    {%- if v is mapping -%}
-      {%- if parent == &quot;&quot; -%}
-        {{ f(k, v) }}
-      {%- else -%}
-        {{ f(parent + &quot;.&quot; + k, v) }}
-      {%- endif -%}
-    {%- else -%}
-      {%- if parent == &quot;&quot; -%}
-        {{k}} = {{v}}
-      {%- else -%}
-        {{parent}}.{{k}} = {{v}}
+{%- for k, v in dict.items() -%}
+{%- if v is mapping -%}
+{%- if parent == &quot;&quot; -%}
+{{ f(k, v) }}
+{%- else -%}
+{{ f(parent + &quot;.&quot; + k, v) }}
+{%- endif -%}
+{%- else -%}
+{%- if parent == &quot;&quot; -%}
+{{k}} = {{v}}
+{%- else -%}
+{{parent}}.{{k}} = {{v}}
 {% endif -%}
-    {%- endif -%}
-  {%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
 {%- endmacro -%}
 
 {{ f(&quot;&quot;, usergui_properties) }}
@@ -157,21 +157,21 @@ default_usergui_properties:
 template as show below to combine our 2 dictionaries.</p>
 
 <pre><code class="language-django">{%- macro f(parent, dict) -%}
-  {%- for k, v in dict.items() -%}
-    {%- if v is mapping -%}
-      {%- if parent == &quot;&quot; -%}
-        {{ f(k, v) }}
-      {%- else -%}
-        {{ f(parent + &quot;.&quot; + k, v) }}
-      {%- endif -%}
-    {%- else -%}
-      {%- if parent == &quot;&quot; -%}
-        {{k}} = {{v}}
-      {%- else -%}
-        {{parent}}.{{k}} = {{v}}
+{%- for k, v in dict.items() -%}
+{%- if v is mapping -%}
+{%- if parent == &quot;&quot; -%}
+{{ f(k, v) }}
+{%- else -%}
+{{ f(parent + &quot;.&quot; + k, v) }}
+{%- endif -%}
+{%- else -%}
+{%- if parent == &quot;&quot; -%}
+{{k}} = {{v}}
+{%- else -%}
+{{parent}}.{{k}} = {{v}}
 {% endif -%}
-    {%- endif -%}
-  {%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
 {%- endmacro -%}
 
 {{ f(&quot;&quot;, default_usergui_properties | combine(usergui_properties, recursive=True)) }}

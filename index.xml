@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Hello World!</title>
-      <link>/posts/hello-world/</link>
-      <pubDate>Sat, 29 Dec 2018 21:56:51 -0600</pubDate>
-      
-      <guid>/posts/hello-world/</guid>
-      <description>It&amp;rsquo;s Alive!</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Sat, 29 Dec 2018 15:48:02 -0600</pubDate>

@@ -194,16 +194,5 @@ be done to template out ini files check back soon for a how-to on this as well.<
 ]]></content>
         </item>
         
-        <item>
-            <title>Hello World!</title>
-            <link>/posts/hello-world/</link>
-            <pubDate>Sat, 29 Dec 2018 21:56:51 -0600</pubDate>
-            
-            <guid>/posts/hello-world/</guid>
-            <description>It&amp;rsquo;s Alive!</description>
-            <content type="html"><![CDATA[<p>It&rsquo;s Alive!</p>
-]]></content>
-        </item>
-        
     </channel>
 </rss>

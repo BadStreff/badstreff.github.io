@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jinja2 on badstreff</title>
-    <link>https://badstreff.github.io/tags/jinja2/</link>
-    <description>Recent content in Jinja2 on badstreff</description>
+    <title>jinja2 on badstreff</title>
+    <link>/tags/jinja2/</link>
+    <description>Recent content in jinja2 on badstreff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 31 Dec 2018 17:59:13 -0600</lastBuildDate>
     
-	<atom:link href="https://badstreff.github.io/tags/jinja2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/jinja2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Ansible to Template Java .properties Files</title>
-      <link>https://badstreff.github.io/posts/ansible-java-properties-template/</link>
+      <link>/posts/ansible-java-properties-template/</link>
       <pubDate>Mon, 31 Dec 2018 17:59:13 -0600</pubDate>
       
-      <guid>https://badstreff.github.io/posts/ansible-java-properties-template/</guid>
+      <guid>/posts/ansible-java-properties-template/</guid>
       <description>Introduction This post should teach you some jinja tricks to make templating out the java .properties file format as painless as possible. For those unfamiliar they generally look something like the following example which was taken from the apache commons config guide. You can find more information and the original here
 # Properties definining the GUI colors.background = #FFFFFF colors.foreground = #000080 window.width = 500 window.height = 300  Notice that they follow a dictionary like structure, if we were to represent this using yaml it would look something like this.</description>
     </item>

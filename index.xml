@@ -39,5 +39,14 @@
       <description>Hello, world!</description>
     </item>
     
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Sat, 29 Dec 2018 15:48:02 -0600</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>Kinda empty atm&amp;hellip;</description>
+    </item>
+    
   </channel>
 </rss>
